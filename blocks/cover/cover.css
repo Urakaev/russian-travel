@@ -1,0 +1,17 @@
+.cover {
+    color: #fff;
+    width: 100%;
+    margin: 92px auto;
+}
+
+@media screen and (max-width: 1023px) {
+    .cover {
+        margin: 88px auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover {
+        margin: 64px auto;
+    }
+}
