@@ -10,7 +10,7 @@
     color: white;
     text-decoration: none;
     position: relative;
-    height: calc(min(1184px, 100vw) * (740 / 1184));
+    min-height: 740px;
 }
 
 .cover__overlay:before {
@@ -27,4 +27,22 @@
 
 .cover__overlay:hover:before {
     opacity: 0.8;
+}
+
+@media screen and (max-width: 1279px) {
+    .cover__overlay {
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .cover__overlay {
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover__overlay {
+        min-height: 200px;
+    }
 }

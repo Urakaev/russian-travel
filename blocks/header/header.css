@@ -2,13 +2,14 @@
     color: #fff;
     display: flex;
     align-items: flex-end;
-    width: calc(100% - 2 * 48px);
+    width: 100%;
     margin: 28px auto 56px;
 }
 
 @media screen and (max-width: 1279px){
     .header {
         margin-bottom: 48px;
+        width: calc(100% - 2 * 48px);
     }
 }
 
