@@ -9,7 +9,7 @@
     margin-right: 18px;
     box-sizing: border-box;
     opacity: 1;
-    transition: opacity .3s;;
+    transition: opacity .3s;
 }
 
 .header__link:hover {
@@ -17,7 +17,7 @@
 }
 
 .header__link:last-of-type{
-    margin-right: 0
+    margin-right: 0;
 }
 
 @media screen and (max-width: 767px){
